@@ -1,0 +1,6 @@
+site_name: WordPress on Ubuntu with Coolify
+
+nav:
+  - Home: wordpress-ubuntu-coolify.md
+
+docs_dir: docs

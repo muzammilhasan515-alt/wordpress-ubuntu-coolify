@@ -4,7 +4,6 @@ WordPress can be deployed on an Ubuntu 24.04 server using Coolify, which simplif
 
 In this setup, WordPress runs together with a MariaDB database on the same server. HTTPS is enabled automatically using Let's Encrypt, allowing the site to be accessed through a custom domain in a secure way and ready for regular use.
 
----
 
 ## Prerequisites
 
@@ -19,7 +18,6 @@ Before starting the installation, make sure the following requirements are in pl
 > **NOTE**  
 > **OS Installation:** If Ubuntu is not yet installed on your server, follow the Official Ubuntu Server Guide before proceeding.
 
----
 
 ### 2. Domain and Networking
 
@@ -29,7 +27,6 @@ Before starting the installation, make sure the following requirements are in pl
 > **IMPORTANT**  
 > **DNS Management:** You must configure your DNS records through your domain registrar. This guide assumes your domain already points to your server IP. For help, refer to your registrar's official documentation.
 
----
 
 ### 3. Core Technologies (Official Documentation)
 
@@ -42,13 +39,9 @@ The following software components are used in this deployment. You can refer to 
 
 **Estimated Time:** 30–45 minutes
 
----
-
 ## Server Preparation (Ubuntu 24.04)
 
 Before installing Coolify, the Ubuntu server must be updated and configured with a minimal set of required tools. These steps ensure the system is up to date, can securely download external resources, and allow incoming web traffic required for running a WordPress site.
-
----
 
 ## Step 1: Connect to the Server
 
